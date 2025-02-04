@@ -8,5 +8,7 @@ let LoginFrom = () => {
         console.log("ثبت نام شما به مشکل خورد :((");
     }
 }
+console.log("show modal form");
+// modal must be show
 
 submit.addEventListener("click", LoginFrom)
