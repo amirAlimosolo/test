@@ -4,8 +4,10 @@ let submit = document.querySelector("button")
 let LoginFrom = () => {
     if (form == true) {
         console.log("شما با موفقست ثبت نام شدید");
+        return true;
     } else {
         console.log("ثبت نام شما به مشکل خورد :((");
+        return false;
     }
 }
 
