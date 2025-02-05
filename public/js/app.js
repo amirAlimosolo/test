@@ -20,7 +20,11 @@ console.log("show modal form");
 
 submit.addEventListener("click", LoginFrom);
 if (form == true) {
-  console.log("log IN✅")
-} else{
+  console.log("log IN✅");
+} else {
   // FIXME
 }
+
+let sumFunc = (firstNum, secondNum) => {
+  return firstNum + secondNum;
+};
